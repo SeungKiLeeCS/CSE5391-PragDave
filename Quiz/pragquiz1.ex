@@ -10,9 +10,8 @@ defmodule Named do
     defp checkfb(a), do: a
 
   # Two (*)
-  def secondout([a|b]), do: IO.inspect(b)
-  def secondout([a,b]), do: IO.inspect(b)
   def secondout([a,b|c]), do: IO.inspect(b)
+  def secondout([a|b]), do: IO.inspect(b)
 
   # Three (*)
   def gcd(a,0), do: a
