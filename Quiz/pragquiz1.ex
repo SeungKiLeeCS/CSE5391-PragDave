@@ -1,5 +1,3 @@
-# Anonymous fn returns true is 2 arg, false if not
-
 defmodule Named do
 
   # One (*)
