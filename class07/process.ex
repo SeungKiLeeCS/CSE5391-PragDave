@@ -1,4 +1,11 @@
+# functions
+'''
+send self, "message" -> sends the message to mailbox
+flush -> pops all messages from mailbox
+'''
+
 defmodule ProcessDemo do
+  # ex pattern match
   def greet() do
     receive do
       "Kim Jung Eun" ->
@@ -10,7 +17,7 @@ defmodule ProcessDemo do
   end
 
   def getter() do
-    # can pattern match here
+    # can pattern match here like case statement
     # Timeout -> if the process is spawned and not used.
     receive do
       msg ->
