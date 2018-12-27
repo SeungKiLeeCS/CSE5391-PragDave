@@ -85,3 +85,5 @@ end
 
 # Datatypes where AST = Data
 # AST of String, Number, Atom, List are just themselves
+
+# Macros -> Spend as little time as possible in the macro. call another function that will return an AST
